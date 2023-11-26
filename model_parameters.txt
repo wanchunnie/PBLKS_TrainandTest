@@ -1,0 +1,17 @@
+Random Forest: 
+max_features=8, min_samples_split=33, n_estimators=60, max_depth=51
+
+XGBoost: 
+max_depth=30, min_child_weight=1, gamma=0.09, colsample_bytree=1, subsample=1, reg_lambda=7, learning_rate=0.2, n_estimators=78
+
+MLP:
+solver='adam', alpha=1e-6, hidden_layer_sizes=3, random_state=45
+
+SVM:
+gamma=0.0001, C=10, probability=True, kernel='rbf'
+
+RNN, BiRNN:
+(Bi)RNN_layer_number=1, feed_forward_layer=2, solver ='Adaw', hidden_size=20
+
+CNN:
+input_channel=1, output_channel=8, kernel_size=3, max_pooling=4, solver='AdaW'
