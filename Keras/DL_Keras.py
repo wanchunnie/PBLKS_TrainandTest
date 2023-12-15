@@ -10,9 +10,9 @@ import os
 # testing RNN, BiRNN（Based on keras） with TenFold and testset
 
 # Folders here
-# test files and Train Filess
-TEST_FOLDER = '/Users/dinghao/Desktop/PBLKS_other/keras_data/test'
-TRAIN_FOLER = '/Users/dinghao/Desktop/PBLKS_other/keras_data/train'
+# your path of train and test data
+TEST_FOLDER = ''
+TRAIN_FOLER = ''
 
 
 def get_data(folder: str, file_name: str) -> (np.ndarray, np.ndarray):
